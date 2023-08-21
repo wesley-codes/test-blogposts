@@ -2,8 +2,8 @@
 title: 'When to Use Static Generation vs. Server-side Rendering'
 date: '2023-03-17'
 tags: ['next.js','nextjs','ssg','ssr']
-author:'John Patrick'
-intro:'Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci omnis illo aspernatur quia obcaecati veniam assumenda accusamus libero tempore similique optio ullam veritatis harum a inventore maxime, autem possimus. Vel!'
+author: 'John Patrick'
+intro: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci omnis illo aspernatur quia obcaecati veniam assumenda accusamus libero tempore similique optio ullam veritatis harum a inventore maxime, autem possimus. Vel!'
 metaImg: 'https://asset.cloudinary.com/drh4lw1m7/bc360eb79217b7a7af2c54ca62447d2c' 
 ---
 
@@ -33,7 +33,10 @@ You can use Static Generation for many types of pages, including:
 
 You should ask yourself: "Can I pre-render this page **ahead** of a user's request?" If the answer is yes, then you should choose Static Generation.
 
-<CustomImage src="https://raw.githubusercontent.com/gitdagray/test-blogposts/main/images/ssg-benefits.PNG" alt="ChatGPT provides the benefits of Static-Site Generation" />
+<CustomImage
+  src="https://raw.githubusercontent.com/gitdagray/test-blogposts/main/images/ssg-benefits.PNG"
+  alt="ChatGPT provides the benefits of Static-Site Generation"
+/>
 
 On the other hand, Static Generation is **not** a good idea if you cannot pre-render a page ahead of a user's request. Maybe your page shows frequently updated data, and the page content changes on every request.
 
